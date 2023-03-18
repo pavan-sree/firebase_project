@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "crudproject-2e052": {
+      "hosting": {
+        "firebaseCrudPoject": [
+          "crudproject-2e052"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "crudproject-2e052"
+  }
+}

@@ -1,0 +1,11 @@
+body{
+  background-image: url('https://i.pinimg.com/originals/4c/8f/df/4c8fdf15851882fa4a15a424c61ab706.jpg');
+  backdrop-filter: blur(8px);
+  background-repeat: no-repeat;
+  background-size:cover;
+  height: 500px;
+  width: 700px;
+  margin-bottom: 95px;
+  margin-left: 400px;
+  margin-top: 100px;
+}

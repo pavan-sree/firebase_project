@@ -1,0 +1,23 @@
+<div class="container pt-5 mt-5">
+  <h1>Enter student details</h1>
+<form class="f1" [formGroup]="studentForm">
+
+  <div class="mb-5">
+    <label for="exampleInputEmail1" class="form-label">Rollno.</label>
+    <input type="text" class="form-control" id="exampleInputEmail1" formControlName="Rollno" aria-describedby="emailHelp">
+  </div>
+  <div class="mb-5">
+    <label for="exampleInputPassword1" class="form-label">Name</label>
+    <input type="text" class="form-control" formControlName="Name" id="exampleInputPassword1">
+  </div>
+  <div class="mb-5">
+    <label for="exampleInputPassword1" class="form-label">Attendance</label>
+    <input type="text" class="form-control" formControlName="Attendance" id="exampleInputPassword1">
+  </div>
+  <div class="mb-5">
+    <label for="exampleInputPassword1" class="form-label">Performance</label>
+    <input type="text" class="form-control" formControlName="Performance" id="exampleInputPassword1">
+  </div>
+  <button type="submit" class="btn btn-primary" (click)="remDetail()" [disabled]="studentForm.invalid">Submit</button>
+</form>
+</div>

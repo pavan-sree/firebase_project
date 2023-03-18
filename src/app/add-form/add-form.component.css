@@ -1,0 +1,16 @@
+#body2{
+  background-image: url('https://thumbs.dreamstime.com/b/abstract-background-hand-painted-texture-gouache-painting-drops-paint-splashes-smears-design-wallpapers-packaging-141940233.jpg');
+  border-radius: 20px;
+  width: 500px;
+  height: 620px;
+  margin-top: 90px;
+}
+input{
+  border-color: black;
+  align-self: center;
+}
+#form1{
+  margin: auto;
+  width:400px;
+  height:600px;
+}

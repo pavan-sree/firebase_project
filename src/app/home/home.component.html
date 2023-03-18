@@ -1,0 +1,32 @@
+<div class="container mt-5 pt-5" id="body4">
+  <h1 class="text-center pb-5">Students</h1>
+  <i class="bi bi-file-plus " (click)="addDetail()"><=Add</i>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Def</th>
+        <th scope="col">Roll no.</th>
+        <th scope="col">Names</th>
+        <th scope="col">Attendance</th>
+        <th scope="col">Performance</th>
+
+        <th scope="col">Edit</th>
+        <th scope="col">Remove</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of Student">
+        <th scope="row">1</th>
+        <td>{{item.Rollno}}</td>
+        <td>{{item.Name}}</td>
+        <td>{{item.Attendance}}</td>
+        <td>{{item.Performance}}</td>
+
+        <td><i class="bi bi-vector-pen" (click)="editDetail(item.doc_id)"></i></td>
+        <td><i class="bi bi-trash3-fill" (click)="remDetail(item.doc_id)"></i></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>
+
